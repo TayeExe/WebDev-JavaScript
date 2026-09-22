@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caacupe+One&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Unit Three: Basic JavaScript Instructions</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head> 
+<body id ="Ex1">
+<nav>
+<div class="main">
+    <div class="title">
+        <h1> Unit Three: Basic JavaScript Instructions</h1>
+        <div class="header_bar"><a href="index.html">HOME</a> <a href="">PROJECTS</a> <a href="">ABOUT ME</a></div>
+    </div>
+</div>    
+</nav>
+<main class="flexbox">
+    <div class="method-box" id="js_output">
+        <script>
+            document.getElementById("js_output").innerHTML =
+                "<h2>innerHTML</h2>" +
+                "<p>This text is brought to you by innerHTML!</p>";
+        </script>
+    </div>
+
+    <div class="method-box documentwrite">
+        <h2>document.write</h2>
+        <script src="js/assg2.js"></script>
+    </div>
+
+    <div class="method-box">
+        <h2>textContent</h2>
+        <div id="text"></div>
+        <script>
+            const text = document.getElementById("text");
+            text.textContent = "This text was written using textContent!";
+        </script>
+    </div>
+</main>
+<footer>
+<div class = "footer">
+<p> Background provided by <a href ="https://www.vecteezy.com/members/setia69"> Vecteezy</a></p>
+</div> 
+</footer>  
+</body>
+</html>

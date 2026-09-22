@@ -1,0 +1,162 @@
+/* JavaScript & jQuery - Chapter 3: Functions, Methods & Programming */
+/* The book used a font called Eau Sans - the download examples use Open Sans */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+  background-color: #fff;
+  background: url("../images/ladywithbook.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0px;
+  font-family: 'Open Sans', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;}
+
+h1 {
+  background: #1e1b1e url("../images/brillaintbookslogo.png") no-repeat;
+  width: 230px;
+  height: 180px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0px;}
+
+h2 {
+  margin: 1.75em 0 0 0;
+  color: #537352; 
+  font-weight: normal;}
+
+h2 + p {
+  margin: 0.25em 0 0 0;}
+p + p {
+  margin: 0;}
+p + h2 {
+  margin: 10px 0 0 0;}
+
+/* message under the logo */
+
+#message {
+  float: left;
+  clear: left;
+  background-color: #537352;
+  color: #1e1b1e;
+  width:170px;
+  padding: 18px 30px;
+  text-align: center;}
+
+/* black bar across the right hand side of the page */
+
+#info {
+  background-color: #b0d2af;
+  color: #fff;
+  width: 200px;
+  padding: 0px 15px;
+  text-align: center;
+  min-height: 100%;
+  position: absolute;
+  top: 0px;
+  right: 15%;
+  z-index: 1;}
+
+/* details in the black bar */
+
+#hotelName {
+  text-transform: uppercase;
+  text-align: center; 
+  font-size: 120%;
+  margin-top: 10px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff; 
+  padding: 10px 0px;}
+
+#hotel1 {
+  margin-top: 1em; 
+  border-top: 1px solid #fff; 
+  padding-top: 1em;} 
+#hotel2 {
+  border-bottom: 1px solid #fff; 
+  padding-bottom: 1em;}
+
+#rooms {
+  font-size: 440%;
+  color: #537352;
+  display: inline-block;
+  margin: 0px;}
+
+#roomRate{
+  text-decoration: line-through;
+  display: inline-block;
+  float: left;
+  padding-top: 10px;}
+
+#specialRate {  
+  font-size: 440%;
+  color: #537352;
+  display: inline-block;
+  padding: 10px 0px 20px 0px;
+  margin: 0px;}
+
+#offerEnds {
+  text-transform: uppercase;
+  color: #537352;
+  font-size: 75%;}
+
+.true, .false {
+  padding: 0px 50px 0px 50px;
+  line-height: 28px;
+  text-align: left;
+  background-image: url("../images/check-cross.png");
+  background-position: 120px 0px;
+  background-repeat: no-repeat;}
+
+.false {
+  background-position: 120px -28px;}
+
+/* footer */
+
+.footer {
+  margin-top: auto;
+  width: 100%;
+  background-color: #537352;}
+
+.footer p {
+  padding: 10px;
+  margin: 0px;}
+
+.data {
+  padding: 10px;}
+
+.spotlight-images { 
+  width: 200px;
+  height: auto;
+  background-color: #537352;
+}
+.header_bar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: relative;
+  z-index: 2;}
+nav {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 1.5rem 0 auto;
+}
+
+.homebutton {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #537352;
+  color: white;
+  text-decoration: none; /* Removes the underline */
+  border-radius: 5px;   /* Rounds the corners */
+  font-family: sans-serif;
+}
+
+.footer{ 
+  color: white;
+}
